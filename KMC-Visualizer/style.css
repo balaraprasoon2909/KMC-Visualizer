@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	user-select: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+canvas {
+	position: absolute;
+}
+
+.nav {
+	position: absolute;
+	z-index: 50;
+	height: 100px;
+	width: 300px;
+	overflow: hidden;
+	display: flex;
+	bottom: 0;
+	right: 0;
+
+}
+
+.btn {
+	color: transparent;
+	cursor: pointer;
+	line-height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 3.5em;
+	transition: .2s all ease;
+	/*text-shadow: 1px 1px #0007;*/
+	-webkit-text-stroke: 1px #0f83;
+}
+
+.btn:hover {
+	/*background: #0f6;*/
+	color: #0f8;
+}
